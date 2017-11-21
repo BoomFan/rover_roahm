@@ -33,7 +33,7 @@ limitations under the License.
     <param name="use_gui" value="false"/>
   </node>
 
-  <include file="$(find ackermann_vehicle_description)/launch/rviz.launch">
+  <include file="$(find rover_roahm_description)/launch/rviz.launch">
     <arg name="namespace" value="$(arg namespace)"/>
   </include>
 </launch>
