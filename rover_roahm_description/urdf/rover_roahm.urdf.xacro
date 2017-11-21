@@ -419,10 +419,10 @@ limitations under the License.
   <axis xyz="1 0 0"/>
   <origin xyz="0.06 -0.054 0.16" rpy="3.1416 0 0"/>
   <parent link="base_link"/>
-  <child link="imu_link"/>
+  <child link="imu"/>
   </joint>
 
-  <link name="imu_link">
+  <link name="imu">
     <inertial>
       <mass value="0.001"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
